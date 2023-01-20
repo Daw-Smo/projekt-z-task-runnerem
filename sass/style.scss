@@ -11,6 +11,7 @@
 
 .row {
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section {
@@ -20,10 +21,11 @@ section {
 ul {
 
     list-style-type: none;
+    padding: 0px;
 }
 
 ul li {
-    margin: 20px 20px 0 0;
+    margin: 20px 0px 0 0;
 	display: inline;
     font-family: 'Montserrat';
 }
@@ -198,6 +200,47 @@ article img {
     color: #222222;
     margin-bottom: 0px;
 }
+
+/* Footer */
+
+.icon {
+    display: flex;
+    justify-content: center; 
+}
+  
+.page-footer li {
+    font-size: 0px;
+    padding: 0 10px 0 10px; 
+}
+  
+.page-footer i {
+    font-size: 30px;
+    background: black;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    border-radius: 100%; 
+}
+  
+.page-footer i:hover {
+    transform: scale(1.2); 
+}
+  
+.icon {
+    text-align: center; 
+}
+
+.page-footer ul li {
+    margin: 0px 0px 0 0;
+	display: inline;
+    font-family: 'Montserrat';
+}
+
+.page-footer div:nth-child(1) {
+    align-self: center;
+}
+
 /*
 .page-title::after {
     position: absolute;
